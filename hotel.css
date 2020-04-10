@@ -1,0 +1,77 @@
+.place{
+    margin-top: 90px;
+    color:red;
+}
+header {
+    height: 65px;
+    width: 100%;
+    background-color: rgba(34, 49, 52, 0.9);
+    position :fixed;
+    top: 0;
+    z-index: 10;
+  }
+  
+  .logo {
+    width: 124px;
+    margin-top: 20px;
+  }
+  
+  .header-left {
+    float: left;
+  color:red;
+  }
+  
+  .header-right {
+    float: right;
+    margin-right: 25px;
+  }
+  
+  .header-right a {
+    line-height: 65px;
+    padding: 0 25px;
+    color: white;
+    display: block;
+    float: left;
+    transition: all 0.5s;
+  }
+  
+  .header-right a:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+  }
+  
+div.box {
+  position: relative;
+  width: 1200px;
+  height: 140px;
+  border: 3px solid black;
+margin-top:10px;
+background-color:#85C1E9;
+}
+
+div.image {
+ 
+ position: absolute;
+ left: 0px;  
+  width: 200px;
+  height: 120px;
+} 
+
+.details h3 {
+ position: absolute;
+  left: 300px;
+  width: 250px;
+  height: 120px;
+} 
+.price{
+ position: absolute;
+  left: 980px;
+  width: 200px;
+color:white;
+top:0px;
+  height: 140px;
+background-color:#34495E;
+padding-left:20px;
+}
+.price button{
+background-color:red;
+}

@@ -1,0 +1,30 @@
+
+
+
+
+Hotel booking Management project
+--------------------------------------
+
+
+Copy all the file into same one folder because every images and html files are linked.
+
+
+**Some images are online, therefore internet connection is required. Also it can take a while to load the image so please wait till the   page gets loaded.
+
+
+
+Main file is :  " HTML_project.html " , it is required to only this file only.
+
+
+
+#2_video_of_explanation -- video link for website working and explanation
+
+
+
+
+
+regards,
+
+Akhil S Nair,
+Sreehari S,
+Yuvraj Singh Yadav. 

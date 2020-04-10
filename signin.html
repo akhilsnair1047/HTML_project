@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <!-- Set the viewport using a <meta> tag -->
+    
+    <title>Lovely Hotel</title>
+    <link rel="stylesheet" href="signincss.css">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+  </head>
+  <body>
+
+    <header>
+      <div class="container">
+        <div class="header-left">
+          <h1>Lovely Hotels<h2>
+        </div>
+        <div class="header-right">
+          <a href="#">Sign up</a>
+          <a href="#" class="login">Log in</a>
+        </div>
+      </div>
+    </header>
+
+<div class="containers">
+  <form action="HTML_project.html">
+    <div class="row">
+      <h2 style="text-align:center">Login with Social Media or Manually</h2>
+      
+
+      <div class="col">
+        <a href="#" class="fb btn">
+          <i class="fa fa-facebook fa-fw"></i> Login with Facebook
+        </a>
+        <a href="#" class="twitter btn">
+          <i class="fa fa-twitter fa-fw"></i> Login with Twitter
+        </a>
+        <a href="#" class="google btn">
+          <i class="fa fa-google fa-fw"></i> Login with Google+
+        </a>
+      </div>
+
+      <div class="col">
+        <div class="hide-md-lg">
+          <p>Or sign in manually:</p>
+        </div>
+
+        <input type="text"  placeholder="Username" required>
+        <input type="password" placeholder="Password" required>
+        <input type="submit" value="Login" onclick="fun1()" > <a href="HTML_project.html"></a>
+         
+      </div>
+
+    </div>
+  </form>
+</div>
+
+<div class="bottom-container">
+  <div class="row">
+    <div class="col">
+      <a href="signup.html" style="color:white" class="btn">Sign up</a>
+    </div>
+    <div class="col">
+      <a href="#" style="color:white" class="btn">Forgot password?</a>
+    </div>
+  </div>
+</div>
+<script>
+  function fun1()
+    {    
+       alert("Login Succesfull...");
+       window.location.href="HTML_project.html";
+    }
+</script>
+</body>
+</html>
